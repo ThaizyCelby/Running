@@ -36,7 +36,7 @@ header h1 {
     font-size: clamp(1.2rem, 2vw, 2rem);
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
-    margin: 0 0 10px 0;
+    margin: 2px;
     color: aliceblue;
 }
 
@@ -44,7 +44,7 @@ header h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1px;
     padding: 0;
     list-style: none;
     margin: 0;
@@ -54,7 +54,7 @@ header h1 {
 .nav-container li a {
     color: white;
     text-decoration: none;
-    font-size: clamp(0.85rem, 1vw, 1rem);
+    font-size: 40%;
     transition: color 0.3s;
 }
 
@@ -65,10 +65,9 @@ header h1 {
 /* Shrink font size on very small screens */
 @media (max-width: 480px) {
     .nav-container a {
-        font-size: 40%;
+        font-size: clamp(6px, 1vw, 8px);
     }
 }
-
 .nav-container a:hover {
     text-decoration: underline; /* Underline on hover */
     color: #e28000;
