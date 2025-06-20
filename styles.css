@@ -79,9 +79,9 @@ header ul li {
 }
 
 body {
-    margin-top: 10%; /* Space for fixed header */
+    margin-top: 5%; /* Space for fixed header */
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1;
     background-color: #f4f4f4; /* Light background for contrast */
     color: #333; /* Dark text for readability */
     z-index: 1; /* Ensure body content is below header */
@@ -93,7 +93,7 @@ body {
   padding: 30px;
   border-radius: 16px;
   max-width: 650px;
-  margin: 40px auto;
+  margin: 20px auto;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   text-align: center;
 }
