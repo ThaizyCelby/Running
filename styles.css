@@ -65,7 +65,7 @@ header h1 {
 /* Shrink font size on very small screens */
 @media (max-width: 480px) {
     .nav-container a {
-        font-size: clamp(6px, 1vw, 8px);
+        font-size: clamp(12px, 3vw, 16px);
     }
 }
 .nav-container a:hover {
