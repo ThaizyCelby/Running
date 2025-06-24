@@ -58,7 +58,7 @@ header h1 {
     transition: color 0.3s;
 }
 
-.nav-container li a:hover {
+.nav-container li a: hover {
     color: #f0db4f; /* Optional hover color */
 }
 
@@ -68,7 +68,7 @@ header h1 {
         font-size: clamp(12px, 3vw, 16px);
     }
 }
-.nav-container a:hover {
+.nav-container a: hover {
     text-decoration: underline; /* Underline on hover */
     color: #e28000;
 }
