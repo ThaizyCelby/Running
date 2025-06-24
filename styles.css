@@ -79,7 +79,7 @@ header ul li {
 }
 
 body {
-    margin-top: 85px; /* Space for fixed header */
+    margin-top: 80px; /* Space for fixed header */
     font-family: Arial, sans-serif;
     line-height: 1;
     background-color: #f4f4f4; /* Light background for contrast */
